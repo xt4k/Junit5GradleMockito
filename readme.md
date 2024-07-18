@@ -1,6 +1,5 @@
 # Junit5 & Mockito
-
-![image](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*Ttvuz_iYI8JZOQ1i.png)
+![image](https://github.com/user-attachments/assets/3ceb0d3f-fecc-43f3-ab14-25330de92892)
 
 
 ## General info
