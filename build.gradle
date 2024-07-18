@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group = 'junit5.mockito'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.11.0-M2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.11.0-M2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.11.0-M2'
+
+    testImplementation 'org.assertj:assertj-core:3.26.3'
+
+    testImplementation 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+
+    implementation 'org.mockito:mockito-core:5.12.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.12.0'
+
+
+}
+
+test {
+    useJUnitPlatform()
+   // systemProperty("skip", "ok")
+}
+
+task all_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags 'web'
+    }
+}
