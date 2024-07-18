@@ -5,7 +5,7 @@
 
 ## General info
 ### Demo project :
-##### Done  as part of UDEMY training use features Junit5 and Mockito for design & test Java applications
+##### Done  as part of UDEMY training to learn Junit5 and Mockito features for design & test Java applications
 
 ## Technology stack
 | GitHub | IDEA | Java | Junit5 | Gradle |                                                                 Mockito                                                                 |
